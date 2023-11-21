@@ -8,9 +8,10 @@ PYTHON_PLATFORM = x86_64-linux-gnu
 PYTHON_VER = 3.8
 PYTHON_INC = -I/usr/include/python$(PYTHON_VER)
 PYTHON_LIB = -L/usr/lib/python$(PYTHON_VER)/config-$(PYTHON_VER)-$(PYTHON_PLATFORM) -lpython$(PYTHON_VER)
-BOOST_DIR  = ./boost
-BOOST_INC  = -I$(BOOST_DIR)
-BOOST_LIBS = -L$(BOOST_DIR)/stage/lib -lboost_python38 -lboost_numpy38 # -lboost_thread -lpthread 
+# BOOST_DIR  = ./boost
+# BOOST_INC  = -I$(BOOST_DIR)
+# BOOST_LIBS = -L$(BOOST_DIR)/stage/lib -lboost_python38 -lboost_numpy38 # -lboost_thread -lpthread 
+BOOST_LIBS = -lboost_python38 -lboost_numpy38 # -lboost_thread -lpthread
 
 
 TARGET = abc_py_.so
