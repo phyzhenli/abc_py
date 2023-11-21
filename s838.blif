@@ -3,7 +3,6 @@
 C.19 C.18 C.17 C.16 C.15 C.14 C.13 C.12 C.11 C.10 C.9 C.8 C.7 C.6 C.5 C.4 C.3 \
 C.2 C.1 C.0
 .outputs Z
-.wire_load_slope 0.00
 .latch     I12 X.4  0
 .latch     I13 X.3  0
 .latch     I14 X.2  0
