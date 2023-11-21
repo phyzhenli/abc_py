@@ -13,8 +13,8 @@ python3.8
 ## Build
 
 ```
-git clone --recursive https://github.com/phyzhenli/abc_py.git
-cd abc_py/abc
+git clone https://github.com/berkeley-abc/abc.git
+cd abc
 make ABC_USE_NO_READLINE=1 ABC_USE_STDINT_H=1 ABC_USE_PIC=1 libabc.a
 cd ../
 make
