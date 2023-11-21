@@ -7,7 +7,7 @@ Python interface for [abc](https://github.com/berkeley-abc/abc).
 
 ```
 git clone --recursive https://github.com/phyzhenli/abc_py.git
-cd abc
+cd abc_py/abc
 make ABC_USE_NO_READLINE=1 ABC_USE_STDINT_H=1 ABC_USE_PIC=1 libabc.a
 cd ../
 make
