@@ -1,0 +1,9 @@
+read /home/zli/Documents/PhD/yosys_benchmarks/ctrl.aig; ps
+resyn2
+read s838.blif; st; ps
+resyn2; ps
+cec s838.blif
+source -s abc.rc
+r s838.blif; ps; st
+r s838.blif; st
+ps; resyn2; ps
