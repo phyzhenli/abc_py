@@ -3,7 +3,14 @@
 Python interface for [abc](https://github.com/berkeley-abc/abc).
 
 
-# Build
+## Dependencies
+```
+boost
+python3.8
+```
+
+
+## Build
 
 ```
 git clone --recursive https://github.com/phyzhenli/abc_py.git
@@ -14,7 +21,7 @@ make
 ```
 
 
-# Usage
+## Usage
 
 ```
 from abc_py_ import AbcInterface_
