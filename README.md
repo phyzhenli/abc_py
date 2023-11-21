@@ -15,7 +15,7 @@ python3.8
 ```
 git clone https://github.com/berkeley-abc/abc.git
 cd abc
-make ABC_USE_NO_READLINE=1 ABC_USE_STDINT_H=1 ABC_USE_PIC=1 libabc.a
+make -j16 ABC_USE_NO_READLINE=1 ABC_USE_STDINT_H=1 ABC_USE_PIC=1 libabc.a
 cd ../
 make
 ```
